@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+    <div class="center"
+        style="width: 50%; margin: auto; height: 100vh; display: flex;  justify-content: center; align-items: center;">
+        <div>
+            <h1 style="text-align: left;" id="name"></h1>
+            <h1 style="text-align: left;" id="height"></h1>
+            <h1 id="country"></h1>
+        </div>
+    </div>
+
+    <script>
+        "use strict"
+        let name, height, country;
+
+        name = "Femi Biolatiri";
+        height = "5'7 feet";
+        country = "Nigeria";
+
+        document.getElementById("name").innerHTML = `Name: ${name}`;
+        document.getElementById("height").innerHTML = `Height: ${height}`;
+        document.getElementById("country").innerHTML = `Country: ${country}`;
+        console.log(`Name: ${name}`);
+        console.log(`Height: ${height}`);
+        console.log(`Country: ${country}`);
+    </script>
+</body>
+
+</html>
